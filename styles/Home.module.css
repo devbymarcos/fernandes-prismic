@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 .btnProducts {
   display: inline-block;
