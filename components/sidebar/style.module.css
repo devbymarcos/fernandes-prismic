@@ -1,0 +1,35 @@
+.sidebar {
+  width: 250px;
+  min-height: calc(100vh - 200px);
+  position: fixed;
+  top: 180px;
+  left: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  background-image: url("./sidebar-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  margin-bottom: 1rem;
+}
+
+.nav {
+  padding: 1.5rem;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  color: #fff;
+  font-size: 1.5rem;
+  display: block;
+  padding: 0.5rem;
+}
+
+.phone {
+  font-size: 1.6rem;
+  color: #fff;
+}
