@@ -1,11 +1,11 @@
 .homeContent {
-  padding: 6rem 0 0 0;
-  position: relative;
+  padding: 15rem 0 0 0;
 }
 .homeContent h1 {
   color: #fff;
   text-align: center;
   font-size: 5rem;
+  margin-bottom: 2rem;
 }
 .btnHome {
   display: flex;
@@ -13,6 +13,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2.5rem;
+  margin-bottom: 3rem;
 }
 .btnProducts {
   display: inline-block;
@@ -41,4 +42,11 @@
   padding: 0.5rem 1rem;
   border-radius: 6px;
   background-color: #41a305;
+}
+
+.phones p {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }

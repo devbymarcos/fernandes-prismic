@@ -1,0 +1,34 @@
+.about {
+  padding-top: 15rem;
+}
+.titleAbout {
+  margin-bottom: 2rem;
+}
+
+.titleAbout h1 {
+  color: #fff;
+  font-size: 3.5rem;
+
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.titleAbout p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.btnAbout {
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.btnAbout:hover {
+  background-color: orange;
+}

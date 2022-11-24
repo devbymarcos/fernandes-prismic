@@ -1,14 +1,13 @@
 .main {
-  height: 100vh;
-  width: calc(100% - 266px);
-  position: absolute;
-  top: 0;
-  left: 266px;
-  padding: 0 1rem;
+  min-height: 100vh;
 }
 
 .overlayer {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
 }

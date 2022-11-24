@@ -1,0 +1,57 @@
+.menu {
+  padding-top: 12.5rem;
+}
+.titleMenu {
+  margin-bottom: 6rem;
+}
+.titleMenu h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.titleMenu p {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.boxPriceName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceName {
+  background-color: var(--black-d);
+  color: #fff;
+  padding: 0.5rem 1.6rem;
+  font-size: 1.5rem;
+}
+.bodyList {
+  padding: 2rem 0;
+  background-color: #fcf6ec;
+  margin-bottom: 5rem;
+}
+.bodyList article {
+  padding: 2rem;
+  color: var(--black-d);
+}
+.bodyList article h3 {
+  font-size: 2rem;
+  color: var(--black-d);
+}
+.bodyList article p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--black-d);
+}
+.bodyList article a {
+  background-color: orange;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  border-radius: 3px;
+  color: var(--black-d);
+}

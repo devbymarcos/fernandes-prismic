@@ -14,11 +14,15 @@ export default function Home() {
           </Link>
           <Link
             className={style.btnWhats}
-            href=" https://wa.me/554132660954?text=Quero%20 pedir"
+            href="https://wa.me/554132660954?text=Quero%20pedir"
           >
             <Image src="/whats-icon.svg" width={30} height={30} />
             <span>Fale com a gente</span>
           </Link>
+        </div>
+        <div className={style.phones}>
+          <p>(41) 3266-0954</p>
+          <p>(41) 3267-4053</p>
         </div>
       </div>
     </>

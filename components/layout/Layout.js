@@ -1,14 +1,16 @@
 import Header from "../header/Header";
-import SideBar from "../sidebar/SideBar";
 import style from "./style.module.css";
+import Footer from "../footer/Footer";
 
 const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <SideBar />
-      <div className={style.overlayer}></div>
-      <main className={style.main}>{children}</main>
+      <main className={style.main}>
+        <div className={style.overlayer}></div>
+        {children}
+      </main>
+      <Footer />
     </>
   );
 };
