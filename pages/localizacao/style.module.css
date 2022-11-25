@@ -36,4 +36,6 @@
 .maps iframe {
   width: 100%;
   height: 450px;
+  margin-bottom: 5rem;
+  border-radius: 6px;
 }
