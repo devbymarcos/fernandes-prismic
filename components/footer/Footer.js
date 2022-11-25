@@ -8,7 +8,12 @@ const Footer = () => {
         <p>Todos os direitos reservados 2022</p>
         <p>Pizzaria Fernandes</p>
         <p>
-          <Image src="/images/logo-black.png" width={90} height={15} />
+          <Image
+            src="/images/logo-black.png"
+            width={90}
+            height={15}
+            alt="logo codemars"
+          />
         </p>
       </footer>
     </>
