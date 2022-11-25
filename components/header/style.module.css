@@ -1,15 +1,19 @@
 .header {
   width: 100%;
   height: 12.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: fixed;
   left: 0;
-  padding: 0 2rem;
   margin-bottom: 2rem;
 }
 
+.headerConter {
+  max-width: var(--container);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
 .logo {
   margin-bottom: 1rem;
 }

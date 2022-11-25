@@ -24,6 +24,7 @@ a {
 :root {
   --zindex-overlayer: 2;
   --black-d: #181818;
+  --container: 1250px;
 }
 
 .container {

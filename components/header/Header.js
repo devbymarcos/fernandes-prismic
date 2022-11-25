@@ -6,25 +6,27 @@ const Header = () => {
   return (
     <>
       <header className={style.header}>
-        <div className={style.logo}>
-          <Image src={logo} width={200} height={123} />
+        <div className={style.headerConter}>
+          <div className={style.logo}>
+            <Image src={logo} width={200} height={123} />
+          </div>
+          <nav className={style.nav}>
+            <ul>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/sobre">Sobre</Link>
+              </li>
+              <li>
+                <Link href="/cardapio">Cardápio</Link>
+              </li>
+              <li>
+                <Link href="/localizacao">Localização</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav className={style.nav}>
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/sobre">Sobre</Link>
-            </li>
-            <li>
-              <Link href="/cardapio">Cardápio</Link>
-            </li>
-            <li>
-              <Link href="/localizacao">Localização</Link>
-            </li>
-          </ul>
-        </nav>
       </header>
     </>
   );
