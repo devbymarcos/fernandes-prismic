@@ -16,7 +16,12 @@ export default function Home() {
             className={style.btnWhats}
             href="https://wa.me/554132660954?text=Quero%20pedir"
           >
-            <Image src="/whats-icon.svg" width={30} height={30} />
+            <Image
+              src="/whats-icon.svg"
+              width={30}
+              height={30}
+              alt="icon-whatsapp"
+            />
             <span>Fale com a gente</span>
           </Link>
         </div>
