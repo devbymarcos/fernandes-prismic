@@ -4,6 +4,8 @@
   position: fixed;
   left: 0;
   margin-bottom: 2rem;
+  transition: all 0.5s;
+  z-index: 1;
 }
 
 .headerConter {
@@ -13,14 +15,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-}
-.logo {
-  margin-bottom: 1rem;
+  transition: all 0.5s;
 }
 
-.nav {
-  padding: 3rem;
-}
 .nav ul {
   display: flex;
   align-items: center;
@@ -42,4 +39,20 @@
   font-size: 1.6rem;
   color: #fff;
   margin-bottom: 1rem;
+}
+
+.animationView {
+  animation: top 0.5s forwards linear;
+}
+
+@keyframes top {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

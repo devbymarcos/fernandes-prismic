@@ -4,26 +4,26 @@ import { PRODUCTS_GET } from "../../lib/api";
 import style from "./style.module.css";
 
 const Pizzas = ({ data }) => {
-  const broto = data[0].attributes.Broto_valor
-    ? data[0].attributes.Broto_valor.toLocaleString("pt-br", {
+  const broto = data[0].attributes.Broto_preco
+    ? data[0].attributes.Broto_preco.toLocaleString("pt-br", {
         style: "currency",
         currency: "BRL",
       })
     : null;
-  const media = data[0].attributes.Media_valor
-    ? data[0].attributes.Media_valor.toLocaleString("pt-br", {
+  const media = data[0].attributes.Media_preco
+    ? data[0].attributes.Media_preco.toLocaleString("pt-br", {
         style: "currency",
         currency: "BRL",
       })
     : null;
-  const grande = data[0].attributes.Grande_valor
-    ? data[0].attributes.Grande_valor.toLocaleString("pt-br", {
+  const grande = data[0].attributes.Grande_preco
+    ? data[0].attributes.Grande_preco.toLocaleString("pt-br", {
         style: "currency",
         currency: "BRL",
       })
     : null;
-  const big = data[0].attributes.Big_valor
-    ? data[0].attributes.Big_valor.toLocaleString("pt-br", {
+  const big = data[0].attributes.Big_preco
+    ? data[0].attributes.Big_preco.toLocaleString("pt-br", {
         style: "currency",
         currency: "BRL",
       })
