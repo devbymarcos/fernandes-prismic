@@ -33,7 +33,7 @@ const Menu = () => {
           {dataGrupos.map((item) => {
             return (
               <div className={style.categoryItemGrid}>
-                <Link href={`/pizzas/${item.attributes.slug}`}>
+                <Link href={`/pizzas/${item.id}`}>
                   <Image
                     className={style.bgItem}
                     src={pizzaImage}

@@ -89,7 +89,7 @@ const Pizzas = ({ data }) => {
 export default Pizzas;
 
 export async function getServerSideProps(context) {
-  const { url, options } = PRODUCTS_GET(context.params.slug);
+  const { url, options } = PRODUCTS_GET(context.params.id);
   const response = await fetch(url, options);
   const { data } = await response.json();
   return {
