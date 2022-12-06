@@ -41,3 +41,14 @@ a {
 .scrollHeader nav ul li a {
   color: #000;
 }
+
+@media (max-width: 750px) {
+  .scrollHeader {
+    background-color: #fff;
+    height: auto !important;
+  }
+}
+
+.activeMenuMobile {
+  left: 0rem;
+}

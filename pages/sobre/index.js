@@ -1,8 +1,10 @@
 import Link from "next/link";
+import WhatsApp from "../../components/whatsapp-icon/WhatsApp";
 import style from "./style.module.css";
 const Sobre = () => {
   return (
     <>
+      <WhatsApp />
       <section className={`container ${style.about}`}>
         <div className={style.titleAbout}>
           <h1>Sobre</h1>

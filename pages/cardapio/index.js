@@ -12,8 +12,6 @@ const Menu = () => {
     const { url, options } = GRUPO_GET();
     const response = await fetch(url, options);
     const { data } = await response.json();
-    console.log("🚀 ~ file: index.js ~ line 15 ~ getGrupos ~ data", data);
-
     setDataGrupos(data);
   }
 

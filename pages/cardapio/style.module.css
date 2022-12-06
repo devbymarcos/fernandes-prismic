@@ -24,6 +24,17 @@
   gap: 1rem;
 }
 
+@media (max-width: 850px) {
+  .category {
+    grid-template-columns: repeat(2, 250px);
+  }
+}
+@media (max-width: 530px) {
+  .category {
+    grid-template-columns: repeat(1, 250px);
+  }
+}
+
 .categoryItemGrid a {
   display: flex;
   justify-content: center;

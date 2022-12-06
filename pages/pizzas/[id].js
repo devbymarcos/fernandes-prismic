@@ -41,27 +41,27 @@ const Pizzas = ({ data }) => {
           <div className={` container ${style.boxPriceName}`}>
             {broto && (
               <div className={style.priceName}>
-                <span> 4 fatias</span>
                 <p>Broto {broto}</p>
+                <span> 4 fatias</span>
               </div>
             )}
             {media && (
               <div className={style.priceName}>
-                <span> 6 fatias</span>
                 <p>Media {media}</p>
+                <span> 6 fatias</span>
               </div>
             )}
 
             {grande && (
               <div className={style.priceName}>
-                <span> 8 fatias</span>
                 <p>Grande {grande}</p>
+                <span> 8 fatias</span>
               </div>
             )}
             {big && (
               <div className={style.priceName}>
-                <span> 16 fatias</span>
                 <p>Big {big}</p>
+                <span> 16 fatias</span>
               </div>
             )}
           </div>

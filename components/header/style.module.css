@@ -17,7 +17,9 @@
   padding: 1rem;
   transition: all 0.5s;
 }
-
+.nav {
+  transition: all 0.5s;
+}
 .nav ul {
   display: flex;
   align-items: center;
@@ -41,6 +43,16 @@
   margin-bottom: 1rem;
 }
 
+.btnMobile {
+  padding: 1rem 1.5rem;
+  background-color: #f8aa00;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: none;
+}
+
 .animationView {
   animation: top 0.5s forwards linear;
 }
@@ -54,5 +66,30 @@
   to {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+
+@media (max-width: 750px) {
+  .headerConter {
+    flex-direction: column;
+    padding: 1rem 0;
+    background-color: #fff;
+  }
+  .nav {
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 9rem;
+    left: -100rem;
+  }
+
+  .nav ul {
+    display: block;
+  }
+  .nav ul li a {
+    color: #000;
+  }
+  .btnMobile {
+    display: block;
   }
 }

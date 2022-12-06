@@ -34,6 +34,7 @@ const Header = () => {
   const [viewLogoB, setViewLogoB] = React.useState(false);
   const [viewLogoW, setViewLogoW] = React.useState(true);
   const header = useRef();
+  const nav = useRef();
 
   function changeHeader() {
     if (window.scrollY > 100) {
@@ -47,12 +48,25 @@ const Header = () => {
     }
   }
 
+  function changeMobileMenu() {
+    nav.current.classList.toggle("activeMenuMobile");
+  }
+
   React.useEffect(() => {
-    window.addEventListener("scroll", changeHeader);
+    if (window.innerWidth >= 750) {
+      window.addEventListener("scroll", changeHeader);
+    }
 
     return () => {
       window.removeEventListener("scroll", changeHeader);
     };
+  }, []);
+
+  React.useEffect(() => {
+    if (window.innerWidth <= 750) {
+      setViewLogoB(true);
+      setViewLogoW(false);
+    }
   }, []);
 
   return (
@@ -63,19 +77,30 @@ const Header = () => {
             <LogoB view={viewLogoB} />
             <LogoW view={viewLogoW} />
           </div>
-          <nav className={style.nav}>
+          <button onClick={changeMobileMenu} className={style.btnMobile}>
+            Menu
+          </button>
+          <nav ref={nav} className={style.nav}>
             <ul>
               <li>
-                <Link href="/">Home</Link>
+                <Link onClick={changeMobileMenu} href="/">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link href="/sobre">Sobre</Link>
+                <Link onClick={changeMobileMenu} href="/sobre">
+                  Sobre
+                </Link>
               </li>
               <li>
-                <Link href="/cardapio">Cardápio</Link>
+                <Link onClick={changeMobileMenu} href="/cardapio">
+                  Cardápio
+                </Link>
               </li>
               <li>
-                <Link href="/localizacao">Localização</Link>
+                <Link onClick={changeMobileMenu} href="/localizacao">
+                  Localização
+                </Link>
               </li>
             </ul>
           </nav>

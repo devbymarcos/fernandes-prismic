@@ -7,6 +7,11 @@
   font-size: 5rem;
   margin-bottom: 2rem;
 }
+@media (max-width: 450px) {
+  .homeContent h1 {
+    font-size: 3rem;
+  }
+}
 .btnHome {
   display: flex;
   justify-content: center;
