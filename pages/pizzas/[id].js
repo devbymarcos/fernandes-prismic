@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { PRODUCTS_GET } from "../../lib/api";
 import style from "./style.module.css";
+import WhatsApp from "../../components/whatsapp-icon/WhatsApp";
 
 const Pizzas = ({ data }) => {
   const broto = data[0].attributes.Broto_preco
@@ -31,6 +32,7 @@ const Pizzas = ({ data }) => {
 
   return (
     <>
+      <WhatsApp />
       <section className={style.menu}>
         <header className={style.titleMenu}>
           <h1>{data[0].attributes.Nome}</h1>

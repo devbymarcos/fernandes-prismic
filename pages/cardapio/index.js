@@ -4,6 +4,7 @@ import pizzaImage from "./pizza-512.png";
 import Link from "next/link";
 import React from "react";
 import { GRUPO_GET } from "../../lib/api";
+import WhatsApp from "../../components/whatsapp-icon/WhatsApp";
 
 const Menu = () => {
   const [dataGrupos, setDataGrupos] = React.useState(null);
@@ -22,6 +23,7 @@ const Menu = () => {
   if (!dataGrupos) return null;
   return (
     <>
+      <WhatsApp />
       <section className={style.menu}>
         <div className={style.titleMenu}>
           <h1>Cardápio</h1>

@@ -4,7 +4,7 @@
   padding: 0.5rem;
   border-radius: 50%;
   background-color: #2ecc71;
-  position: absolute;
+  position: fixed;
   bottom: 2rem;
   right: 3rem;
   cursor: pointer;
