@@ -23,6 +23,12 @@
   justify-content: space-between;
 }
 
+@media (max-width: 850px) {
+  .boxPriceName {
+    flex-direction: column;
+  }
+}
+
 .priceName {
   background-color: var(--black-d);
   color: #fff;
