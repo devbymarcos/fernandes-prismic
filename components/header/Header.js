@@ -78,7 +78,12 @@ const Header = () => {
             <LogoW view={viewLogoW} />
           </div>
           <button onClick={changeMobileMenu} className={style.btnMobile}>
-            <Image src={btnMenu} width={30} height={30} />
+            <Image
+              src={btnMenu}
+              width={30}
+              height={30}
+              alt="icone de menu  tres barras horizontais"
+            />
           </button>
           <nav ref={nav} className={style.nav}>
             <ul>

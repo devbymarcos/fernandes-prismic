@@ -8,7 +8,12 @@ const WhatsApp = () => {
       href="https://wa.me/554132660954?text=Quero%20pedir"
       className={style.boxWhats}
     >
-      <Image src="/whats-icon.svg" width={40} height={40} />
+      <Image
+        src="/whats-icon.svg"
+        width={40}
+        height={40}
+        alt="icone de whatsapp"
+      />
     </Link>
   );
 };

@@ -32,7 +32,7 @@ const Menu = () => {
         <div className={style.category}>
           {dataGrupos.map((item) => {
             return (
-              <div className={style.categoryItemGrid}>
+              <div key={item.id} className={style.categoryItemGrid}>
                 <Link href={`/pizzas/${item.id}`}>
                   <Image
                     className={style.bgItem}
