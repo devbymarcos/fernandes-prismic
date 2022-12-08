@@ -35,18 +35,26 @@
   }
 }
 
+.categoryItemGrid {
+  width: 100%;
+  height: 150px;
+}
 .categoryItemGrid a {
-  display: flex;
+  position: relative;
+
+  /* display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.5rem; */
 }
 
 .bgItem {
   border: 0.5rem solid #fff;
   border-radius: 50%;
   margin: 0 auto;
+  position: absolute;
+  left: 25%;
   justify-self: center;
   animation: router 30s infinite forwards linear;
 }
@@ -65,4 +73,6 @@
   display: block;
   padding: 0.4rem 1rem;
   border-radius: 3px;
+  position: relative;
+  top: 33%;
 }

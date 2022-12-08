@@ -44,7 +44,7 @@
 }
 
 .btnMobile {
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1rem;
   background-color: #f8aa00;
   color: #fff;
   border: none;
@@ -77,16 +77,29 @@
   }
   .nav {
     width: 100%;
+    min-height: 100vh;
     background-color: #fff;
     position: absolute;
     top: 9rem;
     left: -100rem;
+    padding: 3rem 0;
   }
 
   .nav ul {
     display: block;
   }
+  .nav ul li {
+    text-align: center;
+  }
   .nav ul li a {
+    background-color: orange;
+    color: #000;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+  }
+  .nav ul li a:hover {
+    background-color: orangered;
     color: #000;
   }
   .btnMobile {
