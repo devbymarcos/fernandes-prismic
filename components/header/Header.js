@@ -4,7 +4,7 @@ import logoBlack from "./logo_black.png";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-
+import btnMenu from "./menu.svg";
 const LogoB = ({ view }) => {
   if (!view) return null;
   return (
@@ -78,7 +78,7 @@ const Header = () => {
             <LogoW view={viewLogoW} />
           </div>
           <button onClick={changeMobileMenu} className={style.btnMobile}>
-            Menu
+            <Image src={btnMenu} width={30} height={30} />
           </button>
           <nav ref={nav} className={style.nav}>
             <ul>
