@@ -71,8 +71,7 @@
 
 @media (max-width: 750px) {
   .headerConter {
-    flex-direction: column;
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
     background-color: #fff;
   }
   .nav {
@@ -80,7 +79,7 @@
     min-height: 100vh;
     background-color: #fff;
     position: absolute;
-    top: 9rem;
+    top: 6rem;
     left: -100rem;
     padding: 3rem 0;
   }
