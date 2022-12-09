@@ -1,11 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
+import MetaTags from "../components/Metatags/MetaTags";
 
 import style from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <>
+      <MetaTags
+        title="Pizzaria fernandes"
+        description="(41)3266-9054  Acesse nosso site estamos prontos para atender"
+        url="https://pizzariafernandes.com.br"
+        urlImage="https://pizzariafernandes.com.br/screenshot.png"
+      />
       <div className={style.homeContent}>
         <h1>Aproveite as nossas pizzas</h1>
         <div className={style.btnHome}>

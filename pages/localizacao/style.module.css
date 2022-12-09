@@ -39,3 +39,9 @@
   margin-bottom: 5rem;
   border-radius: 6px;
 }
+
+@media (max-width: 490px) {
+  .titleContact h1 {
+    font-size: 2.3rem;
+  }
+}
