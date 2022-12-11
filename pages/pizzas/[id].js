@@ -3,6 +3,7 @@ import React from "react";
 import { PRODUCTS_GET } from "../../lib/api";
 import style from "./style.module.css";
 import WhatsApp from "../../components/whatsapp-icon/WhatsApp";
+import MetaTags from "../../components/Metatags/MetaTags";
 
 const Pizzas = ({ data }) => {
   const broto = data[0].attributes.Broto_preco

@@ -1,5 +1,6 @@
 import style from "./style.module.css";
 import Link from "next/link";
+import MetaTags from "../../components/Metatags/MetaTags";
 const Localization = () => {
   return (
     <>

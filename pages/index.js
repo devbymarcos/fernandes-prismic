@@ -13,6 +13,7 @@ export default function Home() {
         url="https://pizzariafernandes.com.br"
         urlImage="https://pizzariafernandes.com.br/screenshot.png"
       />
+
       <div className={style.homeContent}>
         <h1>Aproveite as nossas pizzas</h1>
         <div className={style.btnHome}>
