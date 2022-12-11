@@ -3,6 +3,12 @@ import Link from "next/link";
 const Localization = () => {
   return (
     <>
+      <MetaTags
+        title="Pizzaria Fernandes Localização"
+        description="(41)3266-9054  Acesse nosso site estamos prontos para atender"
+        url="https://pizzariafernandes.com.br"
+        urlImage="https://pizzariafernandes.com.br/screenshot.png"
+      />
       <section className={`container ${style.contact}`}>
         <div className={style.titleContact}>
           <h1>Localização</h1>

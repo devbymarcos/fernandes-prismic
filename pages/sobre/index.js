@@ -1,9 +1,16 @@
 import Link from "next/link";
 import WhatsApp from "../../components/whatsapp-icon/WhatsApp";
+import MetaTags from "../../components/Metatags/MetaTags";
 import style from "./style.module.css";
 const Sobre = () => {
   return (
     <>
+      <MetaTags
+        title="Pizzaria fernandes"
+        description="(41)3266-9054  Acesse nosso site estamos prontos para atender"
+        url="https://pizzariafernandes.com.br"
+        urlImage="https://pizzariafernandes.com.br/screenshot.png"
+      />
       <WhatsApp />
       <section className={`container ${style.about}`}>
         <div className={style.titleAbout}>

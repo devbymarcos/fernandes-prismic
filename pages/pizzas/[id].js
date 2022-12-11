@@ -32,6 +32,12 @@ const Pizzas = ({ data }) => {
 
   return (
     <>
+      <MetaTags
+        title={data[0].attributes.Nome}
+        description="(41)3266-9054  Acesse nosso site estamos prontos para atender"
+        url="https://pizzariafernandes.com.br"
+        urlImage="https://pizzariafernandes.com.br/screenshot.png"
+      />
       <WhatsApp />
       <section className={style.menu}>
         <header className={style.titleMenu}>
