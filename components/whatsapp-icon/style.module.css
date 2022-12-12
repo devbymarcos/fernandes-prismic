@@ -9,4 +9,5 @@
   right: 3rem;
   cursor: pointer;
   text-align: center;
+  z-index: 4;
 }
