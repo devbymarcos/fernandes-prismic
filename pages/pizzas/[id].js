@@ -41,9 +41,14 @@ const Pizzas = ({ data }) => {
       />
       <WhatsApp />
       <section className={style.menu}>
+        <div className={`container ${style.boxBackMenu}`}>
+          <Link className={style.btnBackMenu} href="/cardapio">
+            Voltar
+          </Link>
+        </div>
         <header className={style.titleMenu}>
           <h1>{data[0].attributes.Nome}</h1>
-          <p>Ecolha e chame clicando em pedir</p>
+          <p>Escolha e chame clicando em pedir</p>
         </header>
 
         <div className={style.listPizzas}>
