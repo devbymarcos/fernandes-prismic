@@ -13,7 +13,9 @@ const Layout = ({ children }) => {
     const { url, options } = ALERT_USER_GET();
     const response = await fetch(url, options);
     const { data } = await response.json();
-
+    if (!data) {
+      return;
+    }
     data.forEach((item) => {
       if (item.attributes.publishedAt) {
         setActive(true);
