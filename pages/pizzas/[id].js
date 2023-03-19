@@ -75,7 +75,7 @@ const Pizzas = ({ data }) => {
             {big && (
               <div className={style.priceName}>
                 <p>Big {big}</p>
-                <span> 16 fatias</span>
+                <span> 12 fatias</span>
               </div>
             )}
           </div>
